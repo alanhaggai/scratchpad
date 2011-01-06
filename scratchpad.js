@@ -1,9 +1,10 @@
-/*!
+/*
  * scratchpad - cross-browser scratchpad
  *
  * Copyright 2011, Alan Haggai Alavi (http://alanhaggai.org/)
  * Released under the GPL licence.
  *
+ * View demo: http://alanhaggai.org/scratchpad/
  * Usage and documentation: see accompanying README.md
  */
 

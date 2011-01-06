@@ -1,6 +1,7 @@
 Scratchpad - *cross-browser scratchpad*
 =======================================
 
+**View [demo](http://alanhaggai.org/scratchpad/)**
 
 Requirements
 ------------

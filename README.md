@@ -35,7 +35,8 @@ Properties
 * `height`: height of the scratchpad
 * `thickness`: stroke thickness
 * `colour`: stroke colour (`colour` and `color` are aliases) :-)
-* `element` (mandatory): the element which should be transformed into the scratchpad
+* `element` *(mandatory)*: the jQuery element which should be transformed into the
+                           scratchpad
 
 `element` is mandatory. All other properties are optional.
 

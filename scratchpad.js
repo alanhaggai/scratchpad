@@ -29,8 +29,8 @@ var scratchpad = function(options) {
     }
 
     $(element).mousedown( function(e) {
-        var x = e.pageX - this.offsetLeft;
-        var y = e.pageY - this.offsetTop;
+        var x = e.pageX - $(element).offset().left;
+        var y = e.pageY - $(element).offset().top;
 
         mouseDown = true;
         drawCircle( x, y );
@@ -43,8 +43,8 @@ var scratchpad = function(options) {
 
     $(element).mousemove( function(e) {
         if (mouseDown) {
-            var x = e.pageX - this.offsetLeft;
-            var y = e.pageY - this.offsetTop;
+            var x = e.pageX - $(element).offset().left;
+            var y = e.pageY - $(element).offset().top;
 
             /*
              * Gaps appear between points when mouse is moved fast. As a
